@@ -1,8 +1,11 @@
 package com.company;
 
+import com.company.creational.pattern.BuilderPattern;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        BuilderPattern builderPattern = new BuilderPattern();
+        BuilderPattern.Client client = builderPattern.new Client();
     }
 }
