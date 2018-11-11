@@ -109,6 +109,7 @@ public class BuilderPattern {
     /*客户端实现类*/
     public class Client{
         public Client(){
+            System.out.println("对象适配器模式的演示：");
             Builder builder = new ApplePcBuilder();
             Director director = new Director(builder);
             director.construct(2,4,"IOS");
