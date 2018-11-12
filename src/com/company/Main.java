@@ -3,6 +3,7 @@ package com.company;
 import com.company.creational.pattern.BuilderPattern;
 import com.company.demo.design.patterns.AdapterPatternDemo;
 import com.company.structural.pattern.AdapterPattern;
+import com.company.structural.pattern.DecoratorPattern;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -21,9 +22,12 @@ public class Main {
         adapterPattern.new Client();*/
 
 
-        //在新版本的客户端上实现Enumeration的功能
+        /*//在新版本的客户端上实现Enumeration的功能
         AdapterPatternDemo adapterPatternDemo = new AdapterPatternDemo();
-        adapterPatternDemo.new Client();
+        adapterPatternDemo.new Client();*/
 
+        //装饰者模式
+        DecoratorPattern decoratorPattern = new DecoratorPattern();
+        decoratorPattern.new Client();
     }
 }
