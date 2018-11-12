@@ -4,10 +4,7 @@ import com.company.creational.pattern.BuilderPattern;
 import com.company.demo.design.patterns.AdapterPatternDemo;
 import com.company.structural.pattern.AdapterPattern;
 import com.company.structural.pattern.DecoratorPattern;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import com.company.structural.pattern.FacadePattern;
 
 public class Main {
 
@@ -26,8 +23,12 @@ public class Main {
         AdapterPatternDemo adapterPatternDemo = new AdapterPatternDemo();
         adapterPatternDemo.new Client();*/
 
-        //装饰者模式
+        /*//装饰者模式
         DecoratorPattern decoratorPattern = new DecoratorPattern();
-        decoratorPattern.new Client();
+        decoratorPattern.new Client();*/
+
+        //外观模式
+        FacadePattern facadePattern = new FacadePattern();
+        facadePattern.new Client();
     }
 }
