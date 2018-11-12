@@ -5,6 +5,7 @@ import com.company.demo.design.patterns.AdapterPatternDemo;
 import com.company.structural.pattern.AdapterPattern;
 import com.company.structural.pattern.DecoratorPattern;
 import com.company.structural.pattern.FacadePattern;
+import com.company.structural.pattern.ProxyPattern;
 
 public class Main {
 
@@ -27,8 +28,13 @@ public class Main {
         DecoratorPattern decoratorPattern = new DecoratorPattern();
         decoratorPattern.new Client();*/
 
-        //外观模式
+        /*//外观模式
         FacadePattern facadePattern = new FacadePattern();
-        facadePattern.new Client();
+        facadePattern.new Client();*/
+
+        //代理模式
+        ProxyPattern proxyPattern = new ProxyPattern();
+        proxyPattern.new Client();
+
     }
 }
